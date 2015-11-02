@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Swordfight
+year: 2012
+project: true
 ---
 
 ![](http://28.media.tumblr.com/tumblr_m2xw79xBzC1ruobkyo1_1280.jpg)

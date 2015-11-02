@@ -47,6 +47,15 @@ body {
   }
 }
 
+.thumbnail {
+  width: 310px;
+  height: 310px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  
+  float: left;
+}
 
 header h1 {
   font-family: 'Roboto', sans-serif;
@@ -120,6 +129,7 @@ article {
   font-size: 1.3em;
   font-family: Georgia, serif;
   clear: both;
+  display: inline-block;
 }
 
 article p {
@@ -260,12 +270,19 @@ article a.noline:hover {
 }
 
 footer {
-  border-top: 1px solid #eee;
-  margin-top: 1em;
   padding-top: 1em;
   font-size: 0.5em;
   color: #eee;
   text-align: center;
-  width: 50%;
+  width: 100%;
   margin: 10em auto 0 auto;
+  display: inline-block;
+  clear: both;
+}
+
+footer div {
+  border-top: 1px solid #eee;
+  padding-top: 1em;
+  margin: 0 auto;
+  width: 50%;
 }
