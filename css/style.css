@@ -129,7 +129,6 @@ article {
   font-size: 1.3em;
   font-family: Georgia, serif;
   clear: both;
-  display: inline-block;
 }
 
 article p {
@@ -159,6 +158,23 @@ article aside {
 article h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 3em;
+}
+
+article h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+}
+
+article table.blog {
+  font-family: 'Roboto', sans-serif;
+}
+
+article table.blog td.date {
+  color: #bbb;
+}
+
+article table.blog td.title {
+  font-weight: 700;
 }
 
 article h3 {
