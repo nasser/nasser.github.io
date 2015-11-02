@@ -9,7 +9,7 @@ title: Swordfight
 
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/jasoneppink/7749713460" title="swordfight"><img src="https://farm9.staticflickr.com/8429/7749713460_a9d6c148a0_b.jpg" width="1024" height="576" alt="swordfight"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
-The game is almost always played in public and grathers a crowd. 
+The game is almost always played in public and gathers a crowd. 
 
 {% include youtube.html id="efMzlEHt0Sg" %}
 
