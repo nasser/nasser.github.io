@@ -1,0 +1,49 @@
+---
+layout: page
+---
+<!-- من لبنان إلى العالم -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Ramsey Nasser</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,900' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Amiri:400,700&amp;subset=latin,arabic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/style.css">
+  <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+  </script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1><a href="/">Ramsey Nasser</a></h1>
+      <h2 lang="{{ page.lang }}">{{ page.title }}</h2>
+      <nav>
+        <ul>
+          <li><a title="About" href="/about"><i class="fa fa-question"></i></a></li>
+          <li><a title="Blog" href="/blog"><i class="fa fa-rss"></i></a></li>
+          <li><a title="Github" href="http://github.com/nasser"><i class="fa fa-github-alt"></i></a></li>
+          <li><a title="Twitter" href="http://twitter.com/ra"><i class="fa fa-twitter"></i></a></li>
+          <li><a title="Vimeo" href="https://vimeo.com/ramseynasser"><i class="fa fa-vimeo"></i></a></li>
+          <li><a title="Flickr" href="https://www.flickr.com/photos/ramseynasser/"><i class="fa fa-flickr"></i></a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <article>      
+{{ content }}
+{% if page.github %}
+<p><a href="https://github.com/nasser/{{ page.github }}"><img class="noscale" style="position: fixed; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"></a>
+{% endif %}
+{% if page.eyebeam %}
+<p><a class="noline" href="{{ page.eyebeam }}"><img src="http://www.videodumbo.org/images/Eyebeam_logo.jpg"></a></p>
+{{ page.title }} was developed at Eyebeam as part of my fellowship exploring code as a medium of self expression.
+{% endif %}
+    </article>
+    <footer>That's all I've got</footer>
+  </div>
+</body>
+</html>

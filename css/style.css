@@ -1,0 +1,271 @@
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+/* For devices larger than 400px */
+@media (min-width: 400px) {
+  .container {
+    width: 85%;
+    padding: 0;
+  }
+}
+
+/* For devices larger than 550px */
+@media (min-width: 550px) {
+  .container { width: 80%; }
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+@media (min-width: 550px) {
+  body {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    transition: 0.5s;
+  }
+  article {
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 1000px) {
+  body {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    transition: 0.5s;
+  }
+  article {
+    margin-top: 100px;
+    max-width: 960px;
+  }
+}
+
+
+header h1 {
+  font-family: 'Roboto', sans-serif;
+  float: left;
+  margin: 0;
+  font-size: 2em;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+header h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  color: #bbb;
+  float: left;
+  margin: 0;
+  margin-left: 0.5em;
+  font-size: 1.25em;
+  line-height: 2.45em;
+}
+
+header h2:lang(ar) {
+  font-family: 'Amiri', serif;
+}
+
+nav ul {
+  clear: both;
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  float: left;
+  margin-right: 1em;
+  height: 1.2em;
+}
+
+nav a,
+header h1 a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  transition: 0.1s;
+}
+
+header h1 a::before {
+  content: "←";
+  opacity: 0;
+  transition: 0.1s;
+}
+
+header h1 a:hover::before {
+  opacity: 1;
+  transition: 0.1s;
+}
+
+header h1 a {
+  margin-left: -1em;
+}
+
+nav li:hover a {
+  color: black;
+  height: 1.6em;
+  margin-top: -5px;
+  transition: 0.1s;
+}
+
+article {
+  font-size: 1.3em;
+  font-family: Georgia, serif;
+  clear: both;
+}
+
+article p {
+  line-height: 1.5em;
+}
+
+article p,
+article h1,
+article h2,
+article h3,
+article blockquote,
+article aside,
+article iframe,
+article ul,
+article .MathJax_Display,
+article pre,
+article ol {
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+article aside {
+  text-align: center;
+  font-size: 1.75em;
+}
+
+article h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3em;
+}
+
+article h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+}
+
+article blockquote {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  border-left: 3px solid black;
+  padding-left: 2em;
+  margin-left: 0;
+  margin-right: 0;
+  font-style: italic;
+}
+
+article blockquote cite::before {
+  content: "— ";
+}
+
+article blockquote cite {
+  padding-top: 1em;
+  display: block;
+}
+
+@media(min-width: 0px) {
+  .columns {
+    margin-top: 0;
+    margin-bottom: 2em;
+  }
+  
+  .columns * {
+    margin-bottom: 0;
+  }
+  
+  /*article .row p {*/
+    /*margin-top: 0;*/
+  /*}*/
+}
+
+@media(min-width: 550px) {
+  .row {
+    margin-top: 0;
+    margin-bottom: 2em;
+  }
+
+  .row * {
+    margin-bottom: 0;
+  }
+}
+
+article iframe {
+  border: 0;
+  width: 100%;
+}
+
+article pre {
+  background: #333;
+  padding: 1em;
+  overflow: scroll;
+}
+
+article pre code {
+  white-space: wrap;
+  color: #eee;
+  background: none;
+  font-size: 1em;
+}
+
+article code {
+  font-family: Menlo, monospace;
+  font-size: 0.9em;
+  white-space: pre;
+  background-color: #eee;
+  color: #333;
+  padding: 2px;
+}
+
+article img {
+  /*display: block;*/
+  width: 100%;
+}
+
+article img.noscale {
+  /*display: block;*/
+  width: auto;
+}
+
+article a {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px dotted #000;
+}
+
+article a.noline {
+  text-decoration: none;
+  border-bottom: none;
+}
+
+article a:hover {
+  color: #000;
+  border-bottom: 1px solid #000;
+}
+
+article a.noline:hover {
+  color: #000;
+  border-bottom: none;
+}
+
+footer {
+  border-top: 1px solid #eee;
+  margin-top: 1em;
+  padding-top: 1em;
+  font-size: 0.5em;
+  color: #eee;
+  text-align: center;
+  width: 50%;
+  margin: 10em auto 0 auto;
+}
