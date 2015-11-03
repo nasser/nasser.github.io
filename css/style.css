@@ -264,7 +264,22 @@ article img.noscale {
   width: auto;
 }
 
-article a {
+article sup a[href] {
+  color: #bbb;
+  border: none;
+}
+
+article sup a[name] {
+  color: #bbb;
+  border: none;
+}
+
+article sup a[href]:hover {
+  color: black;
+  border: none;
+}
+
+article a[href] {
   color: #000;
   text-decoration: none;
   border-bottom: 1px dotted #000;
@@ -275,7 +290,7 @@ article a.noline {
   border-bottom: none;
 }
 
-article a:hover {
+article a[href]:hover {
   color: #000;
   border-bottom: 1px solid #000;
 }
