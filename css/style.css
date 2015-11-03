@@ -259,6 +259,11 @@ article img {
   width: 100%;
 }
 
+article sup {
+  vertical-align: top;
+  position: relative; top: -0.7em;
+}
+
 article img.noscale {
   /*display: block;*/
   width: auto;
