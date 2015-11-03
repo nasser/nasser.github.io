@@ -54,7 +54,7 @@ A language that I feel gets it right is Clojure. As a Lisp, its syntax is *extre
     
     (vals {:foo "bar" :baz qux})
     
-Parentheses mean *exactly one thing*: invocation. Square brackets mean *exactly one thing*: vector literals. Curly braces mean *exactly one thing*: map literals. In the cases where Clojure *does* overload symbols, the overloaded use is always prefixed by a `#` sign, so you can tell the difference between e.g. a map literal and a set literal.
+Parentheses mean *exactly one thing*: invocation. Square brackets mean *exactly one thing*: a vector. Curly braces mean *exactly one thing*: a hash map. In the cases where Clojure *does* overload symbols, the overloaded use is always prefixed by a `#` sign, so you can tell the difference between e.g. a map literal and a set literal.
 
     {:foo "bar"}  ;; map
     
