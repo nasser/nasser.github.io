@@ -21,9 +21,13 @@ An experienced programmer in this family would see
 2. Function definition
 3. Control flow examples
 
-In my experience, new programmers see these constructs as instances of the same idea `identifier left-paren some-stuff right-paren` which is not an unreasonable conclusion to reach. The syntax for each construct is shockingly similar given that their semantics are wildly different. This has resulted in some hopelessly wrong code along the lines of
+In my experience, new programmers see these constructs as instances of the same idea: `identifier left-paren some-stuff right-paren`. This is not an unreasonable conclusion to reach. The syntax for each construct is shockingly similar given that their semantics are wildly different. This has resulted in some hopelessly wrong code along the lines of
 
     foo(x < 20); { ... }
+    
+    if(int x = 0; x < 10; x++);
+
+    for(playerName) { ... }
     
 On top of that parentheses in these languages have yet *another* use: grouping. Bringing it all together, we can write code that uses the same symbols and syntax to mean wildly different things in a small space.
 
@@ -34,15 +38,15 @@ On top of that parentheses in these languages have yet *another* use: grouping. 
       return 0;
     }
 
-My argument is not that this is overly difficult to learn, but there is very little in the text of the code to remind the programmer which particular interpretation of a pattern they are encountering. You just have to memorize the different cases and the control flow keywords to get by.
+My argument is not that this is overly difficult to learn, but that it is a burden on programmers to no meaningful gain. There is very little in the text of the code to remind the reader which particular interpretation of a pattern they are encountering. You are expected to memorize the different cases and the control flow keywords to get by.
 
-The argument tends to be that there is a small number of symbols on the QWERTY keyboards we inherited, and that we have to make due. I don't quite buy that. I think this is sloppy design that has persisted due to programmer comfort over the years.
+The argument tends to be that there is a small number of symbols on the QWERTY keyboards we inherited, and that we have to make do. I don't quite buy that. I think this is sloppy design that has persisted due to programmer comfort over the years.
 
-I can sum up my feelings in a simple mantra
+I can sum up my feelings about this in a simple mantra
 
 <aside> Syntactic similarity should mirror semantic similarity </aside>
 
-Or, to take a quote from the [UX world](https://userexperiences.co/clarity-in-the-details-design-ui-with-more-dimensions-ae1fa1473863),
+Or, to take a quote from the [UX world](https://userexperiences.co/clarity-in-the-details-design-ui-with-more-dimensions-ae1fa1473863)
 
 <aside> Similar things should look similar and dissimilar things should look dissimilar </aside>
 
