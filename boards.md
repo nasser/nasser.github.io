@@ -5,4 +5,4 @@ year: 2015
 project: true
 --- 
 
-![]({{site.url}}/images/boards.png)
+![](screenshot.png)

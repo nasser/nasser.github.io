@@ -15,6 +15,6 @@ Don't Wake The Bear was developed as part of the invitational game jam at [Indie
 
 [2]: http://kahoabe.net/
 [3]: http://policy-tracks.com/
-[4]: http://www.indiecade.com/images/press/indiecade_east_logo_1920x1080.png
+[4]: indiecade.png
 [5]: http://www.indiecade.com/
 [6]: http://www.movingimage.us/
