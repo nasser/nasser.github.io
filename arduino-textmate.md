@@ -3,7 +3,7 @@ layout: page
 title: Arduino Textmate
 year: 2010
 github: arduino.tmbundle
-project: true
+project: false
 --- 
 
 ![Screenshot of Bundle Menu][1]

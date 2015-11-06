@@ -292,12 +292,23 @@ article a[href] {
   border-bottom: 1px dotted #000;
 }
 
+article a[href] code {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px dotted #000;
+}
+
 article a.noline {
   text-decoration: none;
   border-bottom: none;
 }
 
 article a[href]:hover {
+  color: #000;
+  border-bottom: 1px solid #000;
+}
+
+article a[href]:hover code {
   color: #000;
   border-bottom: 1px solid #000;
 }

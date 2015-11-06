@@ -7,27 +7,12 @@ project: true
 
 ![](play.jpg)
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Wizard Hands is a gestural ghost shooting game. Players take on the role of a museum guest who stayed after hours and put on the severed hand of an old wizard, absorbing its magic. They must move their hands and fingers in magical gestures to defend themselves against the onslaught of awakened ghosts and escape. Wizard Hands was developed using [Arcadia](https://github.com/arcadia-unity/Arcadia/), the Leap Motion sensor, and custom hardware, in collaboration with [Kaho Abe](http://kahoabe.net/) for the [Leap Motion 3DJam 2014](https://itch.io/jam/leapmotion3djam).
 
 ![](glove.jpg)
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The glove was designed and built by Kaho Abe. It features light up fingers that indicate the level of mana remaining, acting as an additional form of feedback to the player beyond the projected screen.
 
 {% include vine.html id="Or0ew2ewetx" %}
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Uniquely, the Leap Motion sensor is embedded in the palm of the glove, allowing the player to use their free hand to form the magic gestures required by the game. This frees the experience form being bound to a table, which most Leap Motion games suffer from, and allows the player to be more performative.
