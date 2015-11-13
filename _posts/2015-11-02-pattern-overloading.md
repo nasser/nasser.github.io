@@ -21,7 +21,7 @@ An experienced programmer in this family would see
 2. Function definition
 3. Control flow examples
 
-In my experience, new programmers see these constructs as instances of the same idea: `identifier left-paren some-stuff right-paren`. This is not an unreasonable conclusion to reach. The syntax for each construct is shockingly similar given that their semantics are wildly different. This has resulted in some hopelessly wrong code along the lines of
+In my experience, new programmers see these constructs as instances of the same idea: `name left-paren some-stuff right-paren`. This is not an unreasonable conclusion to reach. The syntax for each construct is shockingly similar given that their semantics are wildly different. This has resulted in some hopelessly wrong code along the lines of
 
     foo(x < 20); { ... }
     
@@ -38,7 +38,7 @@ On top of that parentheses in these languages have yet *another* use: grouping. 
       return 0;
     }
 
-My argument is not that this is overly difficult to learn, but that it is a burden on programmers to no meaningful gain. There is very little in the text of the code to remind the reader which particular interpretation of a pattern they are encountering. You are expected to memorize the different cases and the control flow keywords to get by.
+Python goes *even further* and uses parentheses to denote [tuple literals](https://docs.python.org/2/tutorial/datastructures.html#tuples-and-sequences). My argument is not that this is overly difficult to learn, but that it is a burden on programmers to no meaningful gain. There is very little in the text of the code to remind the reader which particular interpretation of a pattern they are encountering. You are expected to memorize the different cases and the control flow keywords to get by.
 
 The argument tends to be that there is a small number of symbols on the QWERTY keyboards we inherited, and that we have to make do<sup>[1]</sup>. I don't quite buy that. I think this is sloppy design that has persisted due to programmer comfort over the years.
 
@@ -66,7 +66,7 @@ Parentheses mean *exactly one thing*: invocation. Square brackets mean *exactly 
 
 The context is *explicitly in the text*. This is *good design*.
 
-One place where Clojure is less explicit is in the fact that invoking functions and macros looks identical, but in reality is doing very different things. I will not count this against the language, because macros are specifically meant as tools to modify the syntax itself, so this similarity makes more sense.
+One place where Clojure is less explicit is in the fact that invoking functions and macros looks identical, but in reality is doing very different things. I will not count this against the language, because macros are specifically meant as tools to modify the syntax itself, so this similarity makes more sense in this case.
 
 I find myself valuing consistent, predictable syntax over anything overly 'clever', 'easy' or 'convenient' these days.
 
