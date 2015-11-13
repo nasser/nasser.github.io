@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Wizard Hands
+title: Wizard's Hand
 year: 2015
 project: true
 --- 
 
 ![](play.jpg)
 
-Wizard Hands is a gestural ghost shooting game. Players take on the role of a museum guest who stayed after hours and put on the severed hand of an old wizard, absorbing its magic. They must move their hands and fingers in magical gestures to defend themselves against the onslaught of awakened ghosts and escape. Wizard Hands was developed using [Arcadia](https://github.com/arcadia-unity/Arcadia/), the Leap Motion sensor, and custom hardware, in collaboration with [Kaho Abe](http://kahoabe.net/) for the [Leap Motion 3DJam 2014](https://itch.io/jam/leapmotion3djam).
+Wizard's Hand is a gestural ghost shooting game. Players take on the role of a museum guest who stayed after hours and put on the severed hand of an old wizard, absorbing its magic. They must move their hands and fingers in magical gestures to defend themselves against the onslaught of awakened ghosts and escape. Wizard Hands was developed using [Arcadia](https://github.com/arcadia-unity/Arcadia/), the Leap Motion sensor, and custom hardware, in collaboration with [Kaho Abe](http://kahoabe.net/) for the [Leap Motion 3DJam 2014](https://itch.io/jam/leapmotion3djam).
 
 ![](glove.jpg)
 
