@@ -6,7 +6,10 @@ layout: page
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Ramsey Nasser — {{ page.title }}</title>
+  
+  <title>Ramsey Nasser
+    {% if page.title %} — {{ page.title }} {% endif %}
+  </title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,900' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Amiri:400,700&amp;subset=latin,arabic' rel='stylesheet' type='text/css'>
@@ -20,7 +23,18 @@ layout: page
   <div class="container">
     <header>
       <h1><a href="{{ site.url }}/">Ramsey Nasser</a></h1>
-      <h2 lang="{{ page.lang }}">{{ page.title }}</h2>
+      <h2 
+        {% if page.lang %}
+          lang="{{ page.lang }}"
+        {% endif %}
+      >
+      {% if page.title %}
+        {{ page.title }}
+      {% else %}
+        &nbsp;
+      {% endif %}
+      </h2>
+      
       <nav>
         <ul>
           <li><a title="About" href="{{ site.url }}/about"><i class="fa fa-question"></i></a></li>
