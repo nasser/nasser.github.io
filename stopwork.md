@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Stopwork
-github: stopwork
+github: nasser/stopwork
 year: 2012
 project: true
 --- 

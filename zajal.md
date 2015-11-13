@@ -3,7 +3,7 @@ layout: page
 title: Zajal
 year: 2010
 project: true
-github: zajal
+github: nasser/zajal
 eyebeam: zajal
 ---
 

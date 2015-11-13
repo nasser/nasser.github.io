@@ -2,7 +2,7 @@
 layout: page
 title: boards
 year: 2015
-github: boards
+github: nasser/boards
 project: true
 --- 
 

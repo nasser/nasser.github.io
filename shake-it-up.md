@@ -2,7 +2,7 @@
 layout: page
 title: Shake It Up!
 year: 2013
-github: shakeitup
+github: nasser/shakeitup
 project: true
 --- 
 

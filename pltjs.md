@@ -2,7 +2,7 @@
 layout: page
 title: plt.js
 year: 2014
-github: pltjs
+github: nasser/pltjs
 project: true
 --- 
 

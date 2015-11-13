@@ -3,7 +3,7 @@ layout: page
 title: Tetroid
 year: 2009
 project: true
-github: tetroid
+github: nasser/tetroid
 ---
 
 {% include vimeo.html id="7369685" %}

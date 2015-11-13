@@ -2,7 +2,7 @@
 layout: page
 title: god.js
 year: 2013
-github: god.js
+github: nasser/god.js
 project: true
 --- 
 
