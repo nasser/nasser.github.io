@@ -35,7 +35,7 @@ layout: page
       {% endif %}
       </h2>
       
-      <nav>
+      <nav {% unless page.title %} class="index" {% endunless %}>
         <ul>
           <li><a title="About" href="{{ site.url }}/about"><i class="fa fa-question"></i></a></li>
           <li><a title="Blog" href="{{ site.url }}/blog"><i class="fa fa-pencil"></i></a></li>
