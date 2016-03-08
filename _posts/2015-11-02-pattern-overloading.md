@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Pattern Overloading
+permalink: text/:title
 --- 
 
 C-like languages have a problem of overloaded syntax that I noticed while teaching high school students. Consider the following snippets in such a language:
