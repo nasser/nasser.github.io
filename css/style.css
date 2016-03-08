@@ -93,6 +93,7 @@ body {
   article .MathJax_Display,
   article pre,
   article ol {
+    width: 100%;
     margin-top: 0;
     margin-bottom: 20px;
   }
