@@ -13,4 +13,4 @@ Behind my passion is a B.S. in Computer Science from the [American University of
 
 The photo is of me [giving talk at Strange Loop 2014](https://www.youtube.com/watch?v=tJr_TD1BtF0) on [Arcadia](https://github.com/arcadia-unity/Arcadia/) with [Tims Gardner](http://timsgardner.com/). It was taken by [Mike Bridge](https://twitter.com/michaelbridge).
 
-When I have time, I’m open to take on interesting new projects, so [get in touch](mailto: ram@nas.sr) if you’re working on something that could use my skill set. Or just to say hello. I always have time to say hello.
+When I have time, I’m open to take on interesting new projects, so [get in touch](mailto: ramseynasser@fastmail.com) if you’re working on something that could use my skill set. Or just to say hello. I always have time to say hello.
