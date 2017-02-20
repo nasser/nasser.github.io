@@ -5,7 +5,7 @@ year: 2012
 project: true
 ---
 
-![](http://28.media.tumblr.com/tumblr_m2xw79xBzC1ruobkyo1_1280.jpg)
+![](swordfight.jpg)
 
 [Swordfight](http://swordfightgame.tumblr.com/) is a physical two player game played with custom built strap on Atari 2600 controllers. The goal is to press your opponent’s action button with your joystick before the same is done to you. The proximity of the action button and joystick to the players’ groin results in an awkward and hilarious experience for all involved. Swordfight uses original Atari 2600 controllers, harnesses for strap on dildos and custom circuitry. It was developed as a collaboration with [Kurt Bieg](http://thinkbieg.com/) at [Eyebeam](http://eyebeam.org/) for the [Come Out and Play Festival](http://www.comeoutandplay.org/).
 
