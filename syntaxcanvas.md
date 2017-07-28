@@ -3,7 +3,7 @@ layout: page
 title: Syntax Canvas
 eyebeam: ""
 year: 2012
-project: true
+project: false
 --- 
 
 ![Screenshot][1]
