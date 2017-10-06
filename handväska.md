@@ -2,6 +2,7 @@
 layout: page
 title: Handväska!
 year: 2017
+indiecade-selection: 2017
 project: true
 --- 
 
