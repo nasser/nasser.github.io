@@ -19,37 +19,37 @@
     width: 85%;
     padding: 0;
   }
-  
+
   header {
     height: 35px;
     margin-top: 20px;
   }
-  
+
   footer {
     margin-bottom: 20px;
   }
-  
+
   header h1 {
     font-size: 1.5em;
   }
-  
+
   header h2 {
     font-size: 1em;
     line-height: 2.18em;
   }
-  
+
   article {
     margin-top: 50px;
   }
-  
+
   footer {
     margin: 30px auto 0 auto;
   }
-  
+
   nav {
     display: none;
   }
-  
+
   nav.index {
     display: block;
     clear: none;
@@ -81,7 +81,7 @@ body {
     height: 20px;
     display: block;
   }
-  
+
   article p,
   article h1,
   article h2,
@@ -100,12 +100,12 @@ body {
   header h1 {
     font-size: 2em;
   }
-  
+
   header h2 {
     font-size: 1.25em;
     line-height: 2.45em;
   }
-  
+
   nav.index {
     display: block;
     clear: both;
@@ -152,20 +152,20 @@ article .thumbnail {
     margin-top: 100px;
     max-width: 960px;
   }
-  
+
   article .thumbnail {
     width: 310px;
     height: 310px;
   }
-  
+
   nav {
     height: 20px;
   }
-  
+
   footer {
     margin: 60px auto 0 auto;
   }
-  
+
   article p,
   article h1,
   article h2,
@@ -188,7 +188,7 @@ article .thumbnail {
   margin-left: 5px;
   margin-right: 5px;
   margin-bottom: 10px;
-  
+
   float: left;
 }
 
@@ -262,7 +262,7 @@ nav li:hover a {
 }
 
 article {
-  font-size: 1.3em;
+  font-size: 1.5em;
   font-family: Georgia, serif;
   clear: both;
 }
@@ -290,8 +290,13 @@ article table.blog {
   font-family: 'Roboto', sans-serif;
 }
 
+article table.blog tr {
+  height: 1.75em;
+}
+
 article table.blog td.date {
   color: #bbb;
+  padding-right: 0.25em;
 }
 
 article table.blog td.title {
@@ -327,11 +332,11 @@ article blockquote cite {
     margin-top: 0;
     margin-bottom: 2em;
   }
-  
+
   .columns * {
     margin-bottom: 0;
   }
-  
+
   /*article .row p {*/
     /*margin-top: 0;*/
   /*}*/
@@ -355,31 +360,108 @@ article iframe {
   margin-right: auto;
 }
 
+div.highlighter-rouge {
+  width: 100%;
+}
+
+/*
+  https://github.com/apex/apex-syntax/blob/master/styles/open-color.less
+  #f8f9fa, #f1f3f5, #e9ecef, #dee2e6, #ced4da, #adb5bd, #868e96, #495057, #343a40, #212529;
+*/
+
 article pre {
-  background: #333;
+  background: #f8f9fa;
   padding: 1em;
-  overflow: scroll;
+  overflow: auto;
+  width: 100%;
 }
 
 article pre code {
   white-space: wrap;
-  color: #eee;
+  color: #343a40;
   background: none;
-  font-size: 1em;
+  font-size: 0.9em;
+  line-height: 1.5em;
 }
 
+.highlighter-rouge .c1 {
+  color: #adb5bd;
+}
+
+.highlighter-rouge .p
+{
+  color: #868e96;
+}
+
+.highlighter-rouge .s,
+.highlighter-rouge .no,
+.highlighter-rouge .mi
+{
+  color: #212529;
+}
+
+.highlighter-rouge .n,
+.highlighter-rouge .c1 {
+  font-style: italic;
+}
+
+.highlighter-rouge .k {
+  font-weight: bold;
+}
+
+/*
+.highlighter-rouge .c1 {
+  color: #ccc;
+  font-style: italic;
+}
+
+.highlighter-rouge .s,
+.highlighter-rouge .mi {
+  color: #000;
+}
+
+.highlighter-rouge .p {
+  color: #aaa;
+}
+
+.highlighter-rouge .k {
+  font-weight: bold;
+}
+
+.highlighter-rouge .no {
+  color: #555;
+}
+
+.highlighter-rouge .nb,
+.highlighter-rouge .nf {
+  font-weight: bold;
+}
+
+.highlighter-rouge .n {
+  font-style: italic;
+} */
+
 article code {
-  font-family: Menlo, monospace;
+  font-family: 'IBM Plex Mono', monospace;
   font-size: 0.9em;
   white-space: pre;
-  background-color: #eee;
+  background: #fafafa;
+
   color: #333;
   padding: 2px;
 }
 
-article img {
-  /*display: block;*/
+article hr {
+  display: block;
+  height: 50px;
   width: 100%;
+  border: none;
+}
+
+article img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
 }
 
 article sup {
