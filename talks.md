@@ -3,6 +3,8 @@ layout: page
 title: Talks
 ---
 
+{% include youtube.html id="LbS45w_aSCU" %}
+
 {% include vimeo.html id="225567483" %}
 
 {% include youtube.html id="vIvJ4czF118?start=1h18m" %}
