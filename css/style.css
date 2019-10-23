@@ -394,6 +394,7 @@ article pre code {
 }
 
 .highlighter-rouge .s,
+.highlighter-rouge .s2,
 .highlighter-rouge .no,
 .highlighter-rouge .mi
 {
@@ -405,7 +406,8 @@ article pre code {
   font-style: italic;
 }
 
-.highlighter-rouge .k {
+.highlighter-rouge .k,
+.highlighter-rouge .kd {
   font-weight: bold;
 }
 
@@ -440,6 +442,12 @@ article pre code {
 .highlighter-rouge .n {
   font-style: italic;
 } */
+
+article h1 {
+  font-size: 1.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.25em;
+}
 
 article code {
   font-family: 'IBM Plex Mono', monospace;
