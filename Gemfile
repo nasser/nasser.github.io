@@ -2,6 +2,6 @@ source 'https://rubygems.org'
 
 gem 'jekyll'
 gem 'jekyll-paginate'
-gem 'kramdown'
-gem 'pygments.rb'
+gem 'kramdown', '1.17.0'
+gem 'rouge', '3.11.0'
 gem 'jekyll-compose', group: [:jekyll_plugins]

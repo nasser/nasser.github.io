@@ -373,7 +373,7 @@ article pre {
   background: #f8f9fa;
   padding: 1em;
   overflow: auto;
-  width: 100%;
+  width: calc(100% - 2em);
 }
 
 article pre code {

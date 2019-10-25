@@ -1,2 +1,4 @@
 permalink: pretty
 url: https://nas.sr
+markdown: kramdown
+highlighter: rouge
