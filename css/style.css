@@ -97,6 +97,12 @@ body {
     margin-top: 0;
     margin-bottom: 20px;
   }
+
+  article video {
+    max-height: 800px;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
   header h1 {
     font-size: 2em;
   }
@@ -172,6 +178,7 @@ article .thumbnail {
   article h3,
   article blockquote,
   article aside,
+  article video,
   article iframe,
   article ul,
   article .MathJax_Display,
@@ -353,6 +360,7 @@ article blockquote cite {
   }
 }
 
+article video,
 article iframe {
   border: 0;
   display: block;
