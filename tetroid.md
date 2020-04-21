@@ -2,7 +2,7 @@
 layout: page
 title: Tetroid
 year: 2009
-project: true
+project: false
 github: nasser/tetroid
 ---
 
