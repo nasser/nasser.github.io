@@ -15,4 +15,4 @@ The selfie with the most faces wins the round, and players jostle to get as much
 
 ![](controls.png)
 
-Selfie Deathmatch was supported by and showcased at [CultureHub](https://www.culturehub.org).A
+Selfie Deathmatch was supported by and showcased at [CultureHub](https://www.culturehub.org).
