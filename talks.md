@@ -3,6 +3,8 @@ layout: page
 title: Talks
 ---
 
+{% include youtube.html id="Da1a7WYEaHE" %}
+
 {% include mp4.html title="Making Some Noise" subtitle="FennelConf 2020" url="https://conf.fennel-lang.org/v/fennelconf-2020-nasser.mp4" %}
 
 {% include youtube.html id="t8usj1fN9rs" %}
